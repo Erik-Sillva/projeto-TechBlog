@@ -1,0 +1,7 @@
+@media screen and (min-width: 901px) {
+
+    main, aside {
+        max-width: 600px;
+    }
+
+}
