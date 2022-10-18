@@ -103,7 +103,7 @@ img {
 
 header {
     min-width: 100%;
-    padding: 15px;
+    padding: 15px 0 20px 0;
     background: #f7b600;
 
     display: flex;
@@ -114,7 +114,28 @@ header {
     z-index: 5;
 }
 
+header div#container-logo {
+    font-weight: 500;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header div#container-logo p {
+    width: 100%;
+    font-size: 1.3em;
+    color: white;
+}
+
+header div#container-logo p span {
+    color: #4e4e4e;
+}
+
 header h1 {
+    margin: 0 0 .3em 0;
     color: #4e4e4e;
     font-size: 2.5em;
 }
@@ -140,6 +161,14 @@ nav {
     display: block;
 }
 
+nav h2 {
+    margin: .3em 0 2em 0;
+    padding: .1em;
+    font-size: 1.8em;
+    color: #282b2c;
+    background-color: #f7b600;
+}
+
 nav ul {
     height: 97.5%;
     width: 100%;
@@ -149,7 +178,7 @@ nav ul li {
     position: relative;
     width: 100%;
     padding: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
     font-size: 1.2em;
     font-weight: bold;
 
@@ -189,7 +218,7 @@ nav ul li a:hover i {
 
 div.icon {
     position: absolute;
-    top: 0;
+    top: 10px;
     right: -50px;
     padding: 10px;
     font-size: 2em;
